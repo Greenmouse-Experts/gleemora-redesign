@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media screen and (max-width: 885px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 68%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  html {
+    font-size: 90%;
+  }
+}
+.scroll-pro::-webkit-scrollbar {
+  width: 0px !important;
+  height: 0px;
+}
+@layer components {
+  .mulish {
+    font-family: "Mulish", sans-serif;
+  }
+  .sora {
+    font-family: "Sora", sans-serif;
+  }
+  .syne {
+    font-family: "Syne", sans-serif;
+  }
+  .bg-grad {
+    background: linear-gradient(89deg, #f54b64 4.42%, #f78361 99.6%);
+  }
+  .text-grad {
+    background: linear-gradient(89deg, #f54b64 7.25%, #f78361 99.18%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600 !important;
+  }
+  .label_class {
+    color: #000;
+    font-family: Mulish;
+    font-weight: 600;
+    display: block;
+  }
+  .input_class {
+    padding: 12px 14px;
+    border-radius: 7px !important;
+    background: #efefef !important;
+    color: #000 !important;
+    margin-top: 6px;
+  }
+  .input_class::placeholder{
+    background: #efefef !important;
+    font-family: "Mulish", sans-serif;
+  /* font-style: italic; */
+  }
+}
