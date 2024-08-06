@@ -92,13 +92,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        
+          
       </div>
       <div className="w-full border-t border-secondary mt-5 py-12">
         <p className="text-center text-white mt-5">
           2023 © Gleemora. All Rights Reserved.
         </p>
-      </div>
+      </div> 
     </footer>
   );
 };
