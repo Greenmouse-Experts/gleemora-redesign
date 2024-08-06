@@ -10,6 +10,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { survivorSettings } from "../helpers/settings";
+import { useNavigate } from "react-router-dom";
 
 const Professionals = () => {
   const cat = [
@@ -94,6 +95,7 @@ const Professionals = () => {
     //   route: "",
     // },
   ];
+  const navigate = useNavigate()
   const [sliderRef, setSliderRef] = useState(null);
   return (
     <>
@@ -112,7 +114,7 @@ const Professionals = () => {
             <div>
               <Slider ref={setSliderRef} {...survivorSettings}>
                 {cat.map((item, i) => (
-                  <div key={i} className=" relative   !mr-4 rounded-[15px]  duration-100 cursor-pointer  w-full ">
+                  <div key={i} onClick={() => navigate("/bookagent")} className=" relative   !mr-4 rounded-[15px]  duration-100 cursor-pointer  w-full ">
                     <p className="absolute bg-white px-3 py-1 rounded-[6rem] top-4 left-4 ">
                       Survivor Mentor
                     </p>

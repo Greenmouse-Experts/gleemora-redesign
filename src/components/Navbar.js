@@ -86,9 +86,9 @@ const Navbar = () => {
             <Link to="/survivor" className="">
               Become a survivor/Caregiver
             </Link>
-            <HashLink smooth to="/#join">
-              User waitlist sign up
-            </HashLink>
+            <Link smooth to="signup">
+              sign up
+            </Link>
             <Link to="faq">FAQs</Link>
             <Link to="about">About Us</Link>
             <Link to="contact">Contact</Link>

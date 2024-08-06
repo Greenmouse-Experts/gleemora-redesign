@@ -566,7 +566,7 @@ textarea {
 
 @media screen and (max-width: 550px) {
   .home_text {
-    height: 80vh;
+    /* height: 80vh; */
     padding: 5rem 8% 3rem 8%;
   }
   .home h2 {

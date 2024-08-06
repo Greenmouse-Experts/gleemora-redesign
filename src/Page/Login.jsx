@@ -43,7 +43,7 @@ const Login = () => {
             className="bg-gradient-to-r from-primary to-secondary py-5 text-2xl syne w-full rounded-md text-white"
             type="submit"
           >
-            Sign up
+          Log in
           </button>
         </div>
 

@@ -4,7 +4,7 @@ import "../Stylesheet/component.css";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1722857884/footer_y81onq.png')] bg-cover bg-center ">
+    <footer className=" bg-[url('https://res.cloudinary.com/greenmouse-tech/image/upload/v1722857884/footer_y81onq.png')] bg-cover bg-center py-10 ">
       <div className="footer grid items-center justify-between text-white xl:grid-cols-3 grid-cols-1">
       <div className="col-span-1">
         <Link to="/">
@@ -65,36 +65,36 @@ const Footer = () => {
         <div>
           <p className="text-white text-2xl font-semibold mb-6">Useful Links</p>
           <div className="grid grid-cols-1 gap-6">
-            <Link to="about">About Us</Link>
-            <Link to="faq">FAQs</Link>
-            <Link to="survivor">Survivors</Link>
-            <Link to="">Login / Sign Up</Link>
+            <Link to="/about">About Us</Link>
+            <Link to="/faq">FAQs</Link>
+            <Link to="/survivor">Survivors</Link>
+            <Link to="/login">Login / Sign Up</Link>
           </div>
         </div>
 
         <div>
           <p className="text-white text-2xl font-semibold mb-6">Legal</p>
           <div className="grid grid-cols-1 gap-6">
-            <Link to="">Terms and Conditions</Link>
-            <Link to="policy">Privacy Policy</Link>
-            <Link to="">Cookies Policy</Link>
-            <Link to="">Personal Datay</Link>
+            <Link to="/terms">Terms and Conditions</Link>
+            <Link to="/policy">Privacy Policy</Link>
+            <Link to="/">Cookies Policy</Link>
+            <Link to="/">Personal Datay</Link>
           </div>
         </div>
 
         <div>
           <p className="text-white text-2xl font-semibold mb-6">Support</p>
           <div className="grid grid-cols-1 gap-6">
-            <Link to="faq">Help</Link>
-            <Link to="guidelines">Guidelines</Link>
-            <Link to="">Accessibility</Link>
-            <Link to="contact">Contact Us</Link>
+            <Link to="/faq">Help</Link>
+            <Link to="/guidelines">Guidelines</Link>
+            <Link to="/">Accessibility</Link>
+            <Link to="/contact">Contact Us</Link>
           </div>
         </div>
       </div>
           
       </div>
-      <div className="w-full border-t border-secondary mt-5 py-12">
+      <div className="w-full border-t border-secondary mt-5 pt-8">
         <p className="text-center text-white mt-5">
           2023 © Gleemora. All Rights Reserved.
         </p>
